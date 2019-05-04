@@ -1,0 +1,39 @@
+
+
+SEMINARI 1
+
+
+1) - stakeholders : jugadors, desenvolupadros, administradors, testers.
+	- Jugadors: donan feedback a partir d'evaluar estrelles, interessa per saber si els hi agrada el joc o no
+	- Desenvolupadors: aporten idees de que i com ha de funcionar el joc
+	- administradors: tenen un punt de vista important en com s'ha d'estructurar el joc
+
+	- testers: provan el joc des d'una visio subjectiva per saber si el joc es llensara estara a l'alçada.
+
+2) - obsucre points: 
+	- Direccio economica: hi ha d'haver un equip que porti l'economia ( ingressos / despeses del joc)
+
+	- Base de dades: s'ha de gestionar on es guardara el joc, si ho tenen a partir de una base de dades de amazon o d'alguna altra
+
+	- Publicitat i marketing : gestio d'anuncis adecuats per el public que jugara
+
+	- area de diseny: per tenir una bona interficie grafica i que la plataforma tingui una bona usabilitat
+	
+	- compres in game : estudiar com enganxar al jugadro perque compri
+
+	- requeriments previs : fase de prova per poder penjar el joc
+
+	- gestionar credits :transaccions de moneda real a virtual
+
+3) Glossary:
+	- Coins o credits: moneda virtual per comprar items del joc
+
+	- Expel: Expulsar jugadors
+
+	- freemium: jugar gratis pero incorpora compres dins del joc
+
+	- npc: interectuar entre caracters del joc
+
+	
+
+

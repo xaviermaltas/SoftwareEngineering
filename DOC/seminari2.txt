@@ -1,0 +1,113 @@
+SEMINARI 2: ENGINYERIA DEL SOFTWARE	
+
+1)
+
+USES CASE: 
+
+- purchase in store
+
+CONTEXT:
+
+-Un usuari vol comprar quelcom cosa a la botiga online
+
+PRIMARY ACTORS:
+
+-User (player,creator, tester, administrator)
+
+SUPORTERS ACTORS:
+
+-Bancs, paypal...
+PRECONDITIONS:
+
+-usuari loggejat
+-l'usuari ha de tenir comunicacio amb el sistema
+
+SUCCESFUL POSTCONDITIONS:
+-Usuari ha comprat el que vol
+-el sistema ha funcionat correctament
+
+UNSUCCESFULL POSTCONDITION
+- l'usuari no ha pogut comprar el que volia 
+- a l'usuari el sistema no li ha funcionat correctament
+
+[BASIC FLOW]
+
+1)Log in
+2)user/password
+3)user enters the nickname/password
+4)the system verifies that the username exists
+5)the system verifies if the password corresponds to the username
+6)the user buyies whatever he wants
+
+ [EXTENSIONS]
+ 1.a ) User not loged in -> 1.a1 Register as user
+
+9.a ) l'usuari no te suficients diners per pagar -> go to step 7.
+
+
+-----------------------------------------------------
+
+USES CASE: 
+
+- Upload a game		
+
+CONTEXT:
+
+- a (user/developer) vol pujar un joc a la plataforma
+
+PRIMARY ACTORS:
+
+-User (player,creator, tester, administrator)
+
+PRECONDITIONS:
+
+-usuari loggejat
+-system communication
+
+SUCCESFUL POSTCONDITIONS:
+-l'usuari no ha tingut cap problema per penjar el joc
+
+
+UNSUCCESFULL POSTCONDITION
+- l'usuari no ha pogut penjar el joc
+- a l'usuari el sistema no li ha funcionat correctament
+
+[BASIC FLOW]
+
+1)Log in
+2)usuari solicitar penjar un joc
+3)el sistema li dona l'opcio de buscar l'archiu que vol pujar
+4)l'usuari puja el joc
+5)el sistema verifica que s'ha pujat correctament
+6)es puja el joc al sistema
+
+ [EXTENSIONS]
+ 1.a ) User not loged in -> 1.a1 Register as user
+
+5.a ) El sistema no llegeix correctament l'arxiu -> go to step 3.
+
+
+
+2) STAKEHOLDERS: PURCHASE IN A STORE
+-jugadors, desenvolupadors, administradors i testers
+
+STAKEHOLDERS: UPDATE A GAME
+- jugadores desenvolupadros i testers
+
+3)PURCHASE IN A STORE:
+-user(player creator administrator), banks, payapl
+UPDATE A GAME;
+-User(player, creator, administrator)
+
+
+USES CASES OF THE SYSTEM:
+
+-play a game
+-comprar a la botiga
+-veure les stats
+-visit el foro
+-log in
+-fer un rating
+-testejar un joc
+-sign up.
+

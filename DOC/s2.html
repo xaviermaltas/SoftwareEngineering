@@ -1,0 +1,257 @@
+<DOCTYPE html>
+<html>
+
+	<head>
+		<title> SEMINARI 2: ENGINYERIA DEL SOFTWARE	</title>
+	</head>
+
+	<body>
+
+		<header>
+			<h1 style="display: flex; justify-content: center;">SEMINARI 2: ENGINYERIA DEL SOFTWARE</h1>
+			<hr>
+			<div class= "alumnes" style="display:flex; justify-content: space-around;">
+				<h2>Xavier Maltas -> 183809</h2>
+				<h2>Oscar Crespo -> 174888</h2>
+			</div>
+		</header>
+
+		<div id = "main" container>
+
+			<div class = "ex1">
+				<hr>
+				<h3>1 || USE CASES</h3>
+				<div class = "uc_purchase_in_store">
+					<ul class = "pis_list">
+						<h3>1.a || USE CASE : PURCHASE IN STORE</h3>
+						<li>
+							<h4>CONTEXT</h4>
+							<p>Un usuari vol comprar quelcom cosa a la botiga online</p>
+						</li>
+						<li>
+							<h4>PRIMARY ACTORS</h4>
+							<p>User (player,creator, tester, administrator)</p>
+						</li>
+
+						<li>
+							<h4>SUPORTERS ACTORS</h4>
+							<p>Bancs, paypal...</p>
+						</li>
+						<li>
+							<h4>PRECONDITIONS</h4>
+							<p>Usuari loggejat</p>
+							<p>System communication</p>
+						</li>
+						<li>
+							<h4>SUCCESFULL PORSTCONDITIONS</h4>
+							<p>Usuari ha comprat el que vol</p>
+							<p>El sistema ha funcionat correctament</p>
+						</li>
+						<li>
+							<h4>UNSUCCESFULL PORSTCONDITIONS</h4>
+							<p>L'usuari no ha pogut comprar el que volia</p>
+							<p>A l'usuari el sistema no li ha funcionat correctament</p>
+						</li>
+						<li>
+							<h4>BASIC FLOW</h4>
+							<ul>
+								<li>1) Log in</li>
+								<li>2) User/Password</li>
+								<li>3) User enters the nickname/password</li>
+								<li>4) THe system verifies that the username exists</li>
+								<li>5) The system verifies if the password corresponds to the username</li>
+								<li>6)The user buyis whatever he wants</li>
+							</ul>
+							
+						</li>
+						<li>
+							<h4>EXTENSIONS</h4>
+							<p>1.1) User not loged in -> 1.a.1) Register as user</p>
+							<p>9.1) L'usuari no te suficients diners per pagar -> go to step 7.</p>
+						</li>
+					</ul>
+				</div>
+
+				<hr>
+				<hr>
+
+				<div class = "uc_upload_a_game">
+					<ul class = "ug_list">
+						<h3>1.b || USE CASE : UPLOAD A GAME</h3>
+						<li>
+							<h4>CONTEXT</h4>
+							<p>Un user/developer vol pujar un joc a la plataforma</p>
+						</li>
+						<li>
+							<h4>PRIMARY ACTORS</h4>
+							<p>User (player,creator, tester, administrator)</p>
+						</li>
+
+						<li>
+							<h4>SUPORTERS ACTORS</h4>
+							<p>Bancs, paypal...</p>
+						</li>
+						<li>
+							<h4>PRECONDITIONS</h4>
+							<p>Usuari loggejat</p>
+							<p>System communication</p>
+						</li>
+						<li>
+							<h4>SUCCESFULL PORSTCONDITIONS</h4>
+							<p>L'usuari no ha tingut cap problema per penjar el joc</p>
+						</li>
+						<li>
+							<h4>UNSUCCESFULL PORSTCONDITIONS</h4>
+							<p>L'usuari no ha pogut penjar el joc</p>
+							<p>A l'usuari el sistema no li ha funcionat correctament</p>
+						</li>
+						<li>
+							<h4>BASIC FLOW</h4>
+							<ul>
+								<li>1) Log in</li>
+								<li>2) L'usuari solicita penjar un joc</li>
+								<li>3) El sistema li dona l'opció de buscar l'arxiu que vol penjar</li>
+								<li>4) L'usuari penja el joc</li>
+								<li>5) El sistema verifica que s'hagi pogut penjar correctament</li>
+								<li>6) Es puja el joc a la plataforma</li>
+							</ul>
+							
+						</li>
+						<li>
+							<h4>EXTENSIONS</h4>
+							<p>1.1) User not loged in -> 1.a.1) Register as user</p>
+							<p>5.1) El sistema no ha pogut llegir correctament l'arxiu del joc -> go to step 3</p>
+						</li>
+					</ul>
+				</div>
+				<hr>
+
+				<div class = "stakeholders">
+					<h3>2 || STAKEHOLDERS</h3>
+					<div class = "stkrs_pis">
+						<h4>STAKEHOLDERS: PURCHASE IN STORE</h4>
+						<p>Jugadors, desenvolupadors, administradors i testers</p>
+					</div>
+					<div class = "stkrs_ug">
+						<h4>STAKEHOLDERS: UPLOAD A GAME</h4>
+						<p>Jugadores desenvolupadros i testers</p>
+					</div>
+				</div>
+				<hr>
+
+				<div class = "uc_a">
+					<h3>3 || USES CASES AND ACTORS</h3>
+					<div class = "uc_system">
+						<h4>ACTORS</h4>
+						<ul>
+							<li>User (Player, Creator, Administrator)</li>
+							<li>Banks</li>
+							<li>Paypal</li>
+						</ul>
+
+					</div>
+					<div class ="uc_actors">
+						<h4>USE CASES OF THE SYSTEM</h4>
+						<ul>
+							<li>Jugar un joc</li>
+							<li>Comprar a la botiga</li>
+							<li>Veure les stats</li>
+							<li>Visitar el foro</li>
+							<li>Escriure al foro</li>
+							<li>Llegir comentaris al foro</li>
+							<li>Log in</li>
+							<li>Fer un rating</li>
+							<li>Testejar un joc</li>
+							<li>Validar un joc</li>
+							<li>Sign up</li>
+						</ul>
+					</div>
+				</div>
+				<hr>
+
+				<div class = "diagram_relations">
+					<h3>4 || DIAGRAM OF RELATIONS</h3>
+					<div class ="dr_wrapper">
+						<img src="ES-S2-Diagram.png" alt="Diagrama de relacions del sistema" width="700px">
+					</div>
+					<div class = "ls_relations_actors">
+						<h4>Use Case - Actor Relations: </h4>
+						<ul>
+							<li>Log In: User</li>
+							<li>Purchase in Store: Player</li>
+							<li>Rating: Tester, Player</li>
+							<li>Visit Foro: Player, Tester, Creator</li>
+							<li>Validate a game: Administrator</li>
+							<li>Test a game: Tester</li>
+							<li>Check Stats: User</li>
+							<li>Play a Game: Player, Tester</li>
+						</ul>
+					</div>
+				</div>
+				<hr>
+
+				<div class = "obscure_points">
+					<h3>5 || OBSCURE POINTS</h3>
+					<ul>
+						<li>
+							<p>Direccio economica: Hi ha d'haver un equip que porti l'economia ( ingressos / despeses del joc)</p>
+						</li>
+						<li>
+							<p>Base de dades: S'ha de gestionar on es guardara el joc, si ho tenen a partir de una base de dades de amazon o d'alguna altra</p>
+						</li>
+						<li>
+							<p>Publicitat i marketing : Gestio d'anuncis adecuats per el public que jugara</p>
+						</li>
+						<li>
+							<p>Area de diseny: Per tenir una bona interficie grafica i que la plataforma tingui una bona usabilitat</p>
+						</li>
+						<li>
+							<p>Compres in game : Estudiar com enganxar al jugadro perque compri</p>
+						</li>
+						<li>
+							<p>Requeriments previs : Fase de prova per poder penjar el joc</p>
+						</li>
+						<li>
+							<p>Gestionar credits : Transaccions de moneda real a virtual</p>
+						</li>
+
+					</ul>
+				</div>
+
+				<div class = "glossary">
+					<h3>6 || GLOSSARY</h3>
+					<ul>
+						<li>
+							<p>Coins o credits: Moneda virtual per comprar items del joc</p>
+						</li>
+						<li>
+							<p>Expel: Expulsar jugadors</p>
+						</li>
+						<li>
+							<p>Freemium: Jugar gratis pero incorpora compres dins del joc</p>
+						</li>
+						<li>
+							<p>Npc: Interectuar entre caracters del joc</p>
+						</li>
+						<li>
+							<p>Stats: Estadistiques del jugador, cada usuari te el seu apartat de estadistiques</p>
+						</li>
+						<li>
+							<p>Restejar: Provar el joc abans de la sortida</p>
+						</li>	
+						<li>
+							<p>Rating: Puntuar un joc, rebre feedback</p>
+						</li>
+
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+
+		<footer>
+		</footer>
+
+
+	</body>
+</html>

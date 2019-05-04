@@ -1,0 +1,17 @@
+-------REQUERIMENTS FUNCIONALS--------
+
+* Permetre que l'usuari interectui amb els diferents nivells
+* Permetre el canvi de username del personatge
+* L'usuari pot sortir de l'aplicació sempre que vulgui
+* Els usuaris poden comprar items sempre que vulguim
+* L'usuari pot desactivar el volum en qualsevol moment
+
+
+-------REQUERIMENTS NO FUNCIONALS-------
+
+* L'aplicació es programa amb c++
+* L'idioma de l'aplicació estara en catala i castella
+* És necessitara una base de dades externa per poder guardar les informacions i estadístiques de cada usuari
+* El joc es desenvolupara per la platarform adroid
+* Només podran jugar usuaris que tinguin un dispositiu amb pantalla tàctil
+* És podran comprar els items quan disposem de conexió a internet.
